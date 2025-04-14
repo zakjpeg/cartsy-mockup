@@ -1,0 +1,76 @@
+.history {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-left: 18px;
+    margin-right: 18px;
+
+}
+
+.topPadding {
+    padding-top: 100px;
+}
+
+.historyItem { 
+
+    display: flex;
+    font-size: 1.2rem;
+    padding: 15px;
+    padding-right: 20px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
+
+.memberItem {
+    color: var(--message-member-text);
+    background-color: var(--message-member);
+    align-self: flex-start;
+
+}
+
+.selfItem {
+    color: var(--message-self-text);
+    background-color: var(--message-self);
+    align-self: flex-end;
+}
+
+.historyItem__emoji {
+    font-size: 2rem;
+    margin-right: 10px;
+}
+
+.historyItem__description__name {
+    font-weight: 500;
+}
+
+.historyItem__description__action {
+    font-weight: 100;
+}
+
+.historyItem__description__item {
+    font-weight: 700;
+}
+
+.historyItem__description__count {
+
+}
+
+.historyEvent {
+    display: flex;
+    flex-direction: row;
+    color: var(--historyevent);
+    justify-self: center;
+    align-self: center;
+    margin-bottom: 30px;
+}
+
+.bottomPadding {
+    padding-top: 50px;
+}
+
+.bottomGradient {
+    background-image: linear-gradient(to bottom, var(--primary-transparent), var(--primary));
+    height: 110px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}

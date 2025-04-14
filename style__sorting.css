@@ -1,0 +1,33 @@
+.sorting {
+    display: flex;
+    flex-direction: row;
+    font-weight: 500;
+    color: var(--secondary-gradient);
+    align-items: center;
+    overflow: scroll;
+    scrollbar-width: none;
+    margin-bottom: 30px;
+    padding-right: 30px;
+}
+
+.sorting__name {
+    font-weight: 400;
+    padding-right: 10px;
+    line-clamp: 1;
+    margin-left: 18px;
+}
+
+.sorting__category {
+    margin-left: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border: solid;
+    border-color: var(--secondary-gradient);
+    border-radius: 50px;
+    border-width: 1px;
+}
+
+
+

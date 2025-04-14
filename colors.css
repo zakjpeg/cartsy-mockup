@@ -1,0 +1,43 @@
+:root {
+    --primary: #ffffff;
+    --primary-shadow: #ffffff7e;
+    --primary-transparent: #ffffff00;
+
+    --secondary: #171717;
+    --secondary-transparent: #00000000;
+    --secondary-gradient: #363636;
+    --secondary-shadow: #36363681;
+
+    --checked-item: rgb(184, 184, 184);
+
+    --message-member: #e4e4e4;
+    --message-member-text: #171717;
+    --message-self: #0983FD;
+    --message-self-text: #ffffff;
+    
+    --historyevent: #acacac;
+    --gradient-top: rgba(0, 255, 200, 0.15)
+}
+
+
+/* Dark Mode */
+.dark__mode {
+    --primary: #171717;
+    --primary-shadow: #36363681;
+    --primary-transparent: #00000000;
+
+    --secondary: #ffffff;
+    --secondary-shadow: #ffffff7e;
+    --secondary-transparent: #ffffff00;
+    --secondary-gradient: #cacaca;
+
+    --checked-item: rgb(121, 121, 121);
+
+    --message-member: #333333;
+    --message-member-text: #ffffff;
+    --message-self: #0983FD;
+    --message-self-text: #ffffff;
+
+    --historyevent: #7a7a7a;
+    --gradient-top: #004406;
+}

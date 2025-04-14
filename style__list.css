@@ -1,0 +1,98 @@
+
+
+.list {
+
+}
+
+.groupInfo {
+    padding-top: 100px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--secondary);
+    margin-bottom: 50px;
+    background: linear-gradient(to bottom, var(--gradient-top), var(--primary))
+
+}
+
+.groupInfo__photo {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 50%;
+    z-index: 0;
+    margin-bottom: 10px;
+}
+
+.groupInfo__photo img {
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+}
+
+.groupInfo__name {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+
+}
+
+.groupInfo__members {
+    color: var(--historyevent);
+}
+
+.listItem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 18px;
+    margin-right: 36px;
+}
+
+.listItem__emoji {
+    font-size: 1.7rem;
+    margin-right: 10px;
+}
+
+.listItem__item {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--secondary);
+}
+
+.listItem__checkBox {
+    margin-left: auto;
+}
+
+input[type="checkbox"] {
+    width: 25px;
+    height: 25px;
+}
+
+
+.divider {
+    width: 95svw;
+    height: 2px;
+    background-color: var(--message-member);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    justify-self: center;
+}
+
+.bottomPadding {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    color: var(--historyevent);
+    margin-top: 80px;
+    margin-bottom: 120px;
+    text-align: center;
+}
